@@ -47,6 +47,17 @@
 	emote_type = EMOTE_AUDIBLE
 	sound = "growl"
 
+	// Lizard
+
+
+/datum/emote/living/simple_animal/pet/lizard/hiss
+	key = "hiss"
+	key_third_person = "hisses"
+	message = "hisses adorably!"
+	message_param = "hisses at %t adorably!"
+        // Credit to Jamius (freesound.org) for the sound.
+	sound = "sound/effects/unathihiss.ogg"
+
 // Mouse
 
 /datum/emote/living/simple_animal/mouse
